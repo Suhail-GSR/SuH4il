@@ -703,4 +703,12 @@ def crack_select():
 	menu()
     
 if __name__ == '__main__':
+	print("\033[93;1m TOTAL \033[92;1mOK\033[93;1m/\033[91;1mCP: "+str(len(oks))+"/"+str(len(cps)))
+	print("")
+	linex()
+	print("")
+	raw_input("\033[93;1m PRESS ENTER TO BACK ")
+	menu()
+    
+if __name__ == '__main__':
 	main()
