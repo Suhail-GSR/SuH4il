@@ -51,10 +51,10 @@ def logo():
      ███████  ██████  ██   ██ ██   ██ ██ ███████ GsR                                              
                                       
         ╔═════════════════════════════╗
-                Author    ⟩» SIHAIL-GSR
-                Github    ⟩» SGSR
-                Facebook  ⟩» SUHAIL-GSR             
-         ╚═════════════════════════════╝\033[97;1m """
+            Author   ⟩» SIHAIL-GSR
+            Github   ⟩» SGSR
+            Facebook  ⟩» SUHAIL-GSR             
+        ╚═════════════════════════════╝\033[97;1m """
 
 def main():
 	os.system("clear")
