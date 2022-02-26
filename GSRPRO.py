@@ -53,7 +53,7 @@ def main():
 	print("\033[92;1m  [1] START CRACK")
 	print("\033[93;1m  [2] HOW TO GET ACCESS TOKEN")
 	print("\033[94;1m  [3] UPDATE TOOL")
-	print("\033[96;1m  [F] FACEBOOK SUHAIL-GSR \033[92;1m✘\033[91;1m✘")
+	print("\033[96;1m  [4] FACEBOOK SUHAIL-GSR \033[92;1m✘\033[91;1m✘")
 	print("\033[90;1m  [0] EXIT")
 	print("")
 	log_sel()
@@ -72,16 +72,16 @@ def log_sel():
 		import os
 		try:
 			os.system("git clone https://github.com/Suhail-GSR/SuH4il.git")
-			os.system("rm -rf SUHAIL.py")
-			os.system("cp -f SuH4il/SUHAIL.py \\.")
-			os.system("rm -rf SUHAIL.py")
+			os.system("rm -rf GSRPRO.py")
+			os.system("cp -f SuH4il/GSRPRO.py \\.")
+			os.system("rm -rf GSRPRO.py")
 			xox("\033[92;1m\n TOOL UPDATE SUCCESSFUL :)\n")
 			time.sleep(2)
 			main()
 		except KeyboardInterrupt:
 			print("\033[91;1m\n YOUR DEVICE IS NOT SUPPORTED!\n")
 	        	main()
-	elif sel =="4" or sel =="04" or sel =="F" or sel =="j":
+	elif sel =="4" or sel =="04" or sel =="4" or sel =="4":
 		subprocess.check_output(["am", "start", "https://www.facebook.com/profile.php?id=100051098640211"])
 		main()
 	elif sel =="0" or sel =="00":
