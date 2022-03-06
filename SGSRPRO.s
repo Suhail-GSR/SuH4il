@@ -43,7 +43,7 @@ loc = requests.get('https://ipapi.com/ip_api.php?ip=' + ip, headers={'Referer': 
 def linex():
 	os.system('echo  "\n ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n" | lolcat -a -d 2 -s 50')
 def logo():
-	os.system('echo "\n  ❣═══════════════════════════════════════════════❣\n        _________                           \n       /   _____/       ____  _____________ \n       \_____  \       / ___\/  ___/\_  __ \\n       /        \     / /_/  >___ \  |  | \/\n      /_______  / /\  \___  /____  > |__|   \n              \/  \/ /_____/     \/         \n  ❣═════════════════════════════════════════════════❣                                  \n         ╔═════════════➻❥═══════════════╗\n         ║ TOOL NAME: [ Gsr02 ]         ║\n         ║ AUTHOR   : [SUHAIL-GSR]      ║\n         ║ GITHUB   : [git.io/SH]       ║\n         ╚═════════════➻❥═══════════════╝" | lolcat -a -d 2 -s 50') 
+	os.system('echo "\n  ❣═══════════════════════════════════════════════❣\n        \033[92;1m_________                           \n       \033[92;1m/   _____/       ____  _____________ \n       \033[92;1m\_____  \       / ___\/  ___/\_  __ \\n       \033[92;1m/        \     / /_/  >___ \  |  | \/\n      \033[92;1m/_______  / /\  \___  /____  > |__|   \n              \033[92;1m\/  \/ /_____/     \/         \n  ❣═════════════════════════════════════════════════❣                                  \n         ╔═════════════➻❥═══════════════╗\n         ║ TOOL NAME: [ Gsr02 ]         ║\n         ║ AUTHOR   : [SUHAIL-GSR]      ║\n         ║ GITHUB   : [git.io/SH]       ║\n         ╚═════════════➻❥═══════════════╝" | lolcat -a -d 2 -s 50') 
 
 def main():
 	os.system("clear")
@@ -51,9 +51,9 @@ def main():
 	print("\t\033[93;1m           ✖MAIN MENU✖\x1b[0m")
 	print("")
 	print("\033[1;36;40m[1] ➤START CRACK")
-	print("\033[1;36;40m[2]➤HOW TO GET ACCESS TOKEN")
+	print("\033[1;36;40m[2] ➤HOW TO GET ACCESS TOKEN")
 	print("\033[1;36;40m[3] ➤UPDATE TOOL")
-	print("\033[1;36;40m[4] ➤FACEBOOK SUHAIL-GSR \033[92;1m✘\033[91;1m✘")
+	print("\033[1;36;40m[4] ➤FACEBOOK SUHAIL-GSR")
 	print("\033[1;36;40m[0] ➤EXIT")
 	print("")
 	log_sel()
@@ -147,9 +147,9 @@ def menu():
     print("")
 
     print("")
-    print("\033[93;1m  [1]➢ CRACK WITH AUTO PASS")
-    print("\033[93;1m  [2]➢ CRACK WITH DIGIT PASS")
-    print('\033[93;1m  [0]➢ BACK')
+    print("\033[1;35;40m  [1]➢ CRACK WITH AUTO PASS")
+    print("\033[1;35;40m  [2]➢ CRACK WITH DIGIT PASS")
+    print('\033[1;35;40m  [0]➢ BACK')
     print("")
     menu_option()
     
