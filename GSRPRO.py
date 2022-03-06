@@ -53,7 +53,7 @@ def main():
 	print("\033[1;36;40m[1] ➤START CRACK")
 	print("\033[1;36;40m[2] ➤HOW TO GET ACCESS TOKEN")
 	print("\033[1;36;40m[3] ➤UPDATE TOOL")
-	print("\033[1;36;40m[4] ➤FACEBOOK SUHAIL-GSR \033[92;1m✘\033[91;1m✘")
+	print("\033[1;36;40m[4] ➤FACEBOOK SUHAIL-GSR")
 	print("\033[1;36;40m[0] ➤EXIT")
 	print("")
 	log_sel()
